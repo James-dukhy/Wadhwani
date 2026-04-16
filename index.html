@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civ-Guard — Anonymous Crime Reporting Platform</title>
+    <meta name="description" content="Civ-Guard is an anonymous crime reporting platform that protects witnesses and empowers justice. Speak up, stay safe, stay anonymous.">
+    <meta property="og:title" content="Civ-Guard — Speak Up. Stay Safe. Stay Anonymous.">
+    <meta property="og:description" content="An anonymous crime reporting platform that protects witnesses and empowers justice.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ═══ TOP ACCENT BAR ═══ -->
+    <div class="top-bar" aria-hidden="true"></div>
+
+    <!-- ═══ NAVIGATION ═══ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">
+                <i class="ph-bold ph-shield-check"></i>
+                <span>CIV-GUARD</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#problem">Problem</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#features">Features</a>
+                <a href="#demo">Demo</a>
+                <a href="#tech">Tech</a>
+                <a href="#contact" class="nav-cta">Join Mission</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <i class="ph-bold ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══ MOBILE MENU OVERLAY ═══ -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <a href="#problem" class="mobile-link">Problem</a>
+            <a href="#how-it-works" class="mobile-link">How It Works</a>
+            <a href="#features" class="mobile-link">Features</a>
+            <a href="#demo" class="mobile-link">Demo</a>
+            <a href="#tech" class="mobile-link">Tech</a>
+            <a href="#contact" class="mobile-link mobile-cta">Join the Mission</a>
+        </div>
+    </div>
+
+    <!-- ═══════════════════════════════════ -->
+    <!-- ═══ SECTION 1 — HERO ═══ -->
+    <!-- ═══════════════════════════════════ -->
+    <section id="hero" class="hero">
+        <div class="hero-noise" aria-hidden="true"></div>
+        <div class="hero-glow" aria-hidden="true"></div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge reveal">
+                    <i class="ph ph-shield-warning"></i>
+                    CIVIC TECH INITIATIVE
+                </div>
+                <h1 class="hero-headline reveal" data-delay="1">
+                    <span class="hero-line-top">Speak Up. Stay Safe.</span>
+                    <span class="hero-line-bottom">Stay <span class="accent">Anonymous</span>.</span>
+                </h1>
+                <p class="hero-sub reveal" data-delay="2">
+                    Civ-Guard — an anonymous crime reporting platform that protects witnesses and empowers justice.
+                </p>
+                <div class="hero-ctas reveal" data-delay="3">
+                    <a href="#how-it-works" class="btn btn-primary" id="cta-how-it-works">
+                        See How It Works
+                        <i class="ph-bold ph-arrow-right"></i>
+                    </a>
+                    <a href="#demo" class="btn btn-secondary" id="cta-demo">
+                        View App Demo
+                        <i class="ph-bold ph-play"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal" data-delay="2">
+                <!-- Shield pulse rings -->
+                <div class="shield-pulse-container" aria-hidden="true">
+                    <div class="shield-ring ring-1"></div>
+                    <div class="shield-ring ring-2"></div>
+                    <div class="shield-ring ring-3"></div>
+                    <i class="ph-fill ph-shield-check shield-icon-bg"></i>
+                </div>
+
+                <!-- Phone Mockup -->
+                <div class="phone-mockup">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <div class="app-status-bar">
+                            <span>9:41</span>
+                            <span class="app-status-icons">
+                                <i class="ph-bold ph-wifi-high"></i>
+                                <i class="ph-bold ph-battery-full"></i>
+                            </span>
+                        </div>
+                        <div class="app-header">
+                            <i class="ph-bold ph-shield-check"></i>
+                            <span>CIV-GUARD</span>
+                        </div>
+                        <div class="app-title">Report a Crime</div>
+                        <div class="app-grid">
+                            <div class="app-type">
+                                <i class="ph ph-coin"></i>
+                                <span>Theft</span>
+                            </div>
+                            <div class="app-type active">
+                                <i class="ph ph-eye-slash"></i>
+                                <span>Harass</span>
+                            </div>
+                            <div class="app-type">
+                                <i class="ph ph-warning-circle"></i>
+                                <span>Assault</span>
+                            </div>
+                            <div class="app-type">
+                                <i class="ph ph-house"></i>
+                                <span>Domestic</span>
+                            </div>
+                            <div class="app-type">
+                                <i class="ph ph-laptop"></i>
+                                <span>Cyber</span>
+                            </div>
+                            <div class="app-type">
+                                <i class="ph ph-dots-three"></i>
+                                <span>Other</span>
+                            </div>
+                        </div>
+                        <div class="app-upload">
+                            <i class="ph ph-camera"></i>
+                            <span>Upload Evidence</span>
+                        </div>
+                        <div class="app-location">
+                            <i class="ph ph-map-pin"></i>
+                            <span>Location: Auto-detected</span>
+                            <span class="app-location-dot"></span>
+                        </div>
+                        <div class="app-submit">Submit Report</div>
+                        <div class="app-footer-note">
+                            <i class="ph ph-lock-simple"></i>
+                            Anonymous · Encrypted · Secure
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator reveal" data-delay="4">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════ -->
+    <!-- ═══ SECTION 2 — THE PROBLEM ═══ -->
+    <!-- ═══════════════════════════════════ -->
+    <section id="problem" class="section section-problem">
+        <div class="container">
+            <div class="section-label reveal">THE PROBLEM</div>
+            <h2 class="section-headline section-headline--problem reveal" data-delay="1">
+                Reasons <span class="accent">Crimes</span> go unreported
+            </h2>
+
+            <div class="stat-cards">
+                <div class="stat-card reveal" data-delay="1">
+                    <div class="stat-number">72%</div>
+                    <div class="stat-label">of witnesses fear identity exposure</div>
+                    <div class="stat-icon"><i class="ph ph-eye-closed"></i></div>
+                </div>
+                <div class="stat-card reveal" data-delay="2">
+                    <div class="stat-number">60%</div>
+                    <div class="stat-label">distrust police follow-through</div>
+                    <div class="stat-icon"><i class="ph ph-shield-slash"></i></div>
+                </div>
+                <div class="stat-card reveal" data-delay="3">
+                    <div class="stat-number">1 in 3</div>
+                    <div class="stat-label">victims stay silent due to social stigma</div>
+                    <div class="stat-icon"><i class="ph ph-chat-slash"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════ -->
+    <!-- ═══ SECTION 3 — HOW IT WORKS ═══ -->
+    <!-- ═══════════════════════════════════ -->
+    <section id="how-it-works" class="section section-how">
+        <div class="container">
+            <div class="section-label reveal">HOW IT WORKS</div>
+            <h2 class="section-headline reveal" data-delay="1">
+                7 steps. Fully anonymous.<br>Fully <span class="accent">secure</span>.
+            </h2>
+
+            <div class="timeline">
+                <div class="timeline-line" aria-hidden="true">
+                    <div class="timeline-line-fill" id="timelineFill"></div>
+                </div>
+
+                <div class="timeline-step reveal-step" data-step="1">
+                    <div class="step-marker">
+                        <span class="step-number">01</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Open App</h3>
+                        <p class="step-desc">No name, email, or phone required</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-step" data-step="2">
+                    <div class="step-marker">
+                        <span class="step-number">02</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Select Crime Type</h3>
+                        <p class="step-desc">Theft, harassment, domestic violence, cybercrime</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-step" data-step="3">
+                    <div class="step-marker">
+                        <span class="step-number">03</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Upload Evidence</h3>
+                        <p class="step-desc">Photo, video, or voice recording</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-step" data-step="4">
+                    <div class="step-marker">
+                        <span class="step-number">04</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Auto-Add Details</h3>
+                        <p class="step-desc">Location, time, date captured automatically</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-step" data-step="5">
+                    <div class="step-marker">
+                        <span class="step-number">05</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Unique Case ID</h3>
+                        <p class="step-desc">Your anonymous tracking key is generated</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-step" data-step="6">
+                    <div class="step-marker">
+                        <span class="step-number">06</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Police Dashboard</h3>
+                        <p class="step-desc">Authorized officers review encrypted evidence</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step reveal-step" data-step="7">
+                    <div class="step-marker">
+                        <span class="step-number">07</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">Track Progress</h3>
+                        <p class="step-desc">Check status anytime using your Case ID</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════ -->
+    <!-- ═══ SECTION 4 — FEATURES ═══ -->
+    <!-- ═══════════════════════════════════ -->
+    <section id="features" class="section section-features">
+        <div class="container">
+            <div class="section-label reveal">FEATURES</div>
+            <h2 class="section-headline reveal" data-delay="1">
+                Built for trust.<br>Designed for <span class="accent">action</span>.
+            </h2>
+
+            <div class="features-grid">
+                <div class="feature-card reveal" data-delay="1">
+                    <div class="feature-icon">
+                        <i class="ph-bold ph-lock"></i>
+                    </div>
+                    <h3 class="feature-title">Evidence Vault</h3>
+                    <p class="feature-desc">Encrypted, timestamped, tamper-proof storage</p>
+                </div>
+
+                <div class="feature-card reveal" data-delay="2">
+                    <div class="feature-icon">
+                        <i class="ph-bold ph-user-x"></i>
+                    </div>
+                    <h3 class="feature-title">Zero Identity</h3>
+                    <p class="feature-desc">No account, no tracking, no exposure</p>
+                </div>
+
+                <div class="feature-card reveal" data-delay="3">
+                    <div class="feature-icon">
+                        <i class="ph-bold ph-map-pin"></i>
+                    </div>
+                    <h3 class="feature-title">Live Location</h3>
+                    <p class="feature-desc">Auto-captures GPS coordinates at report time</p>
+                </div>
+
+                <div class="feature-card reveal" data-delay="1">
+                    <div class="feature-icon">
+                        <i class="ph-bold ph-shield-check"></i>
+                    </div>
+                    <h3 class="feature-title">Case Tracking</h3>
+                    <p class="feature-desc">Follow progress via anonymous Case ID</p>
+                </div>
+
+                <div class="feature-card reveal" data-delay="2">
+                    <div class="feature-icon">
+                        <i class="ph-bold ph-chart-bar"></i>
+                    </div>
+                    <h3 class="feature-title">Police Dashboard</h3>
+                    <p class="feature-desc">Real-time reports visible to authorized officers</p>
+                </div>
+
+                <div class="feature-card reveal" data-delay="3">
+                    <div class="feature-icon">
+                        <i class="ph-bold ph-file-lock"></i>
+                    </div>
+                    <h3 class="feature-title">Legal Proof</h3>
+                    <p class="feature-desc">Encrypted files valid as court evidence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════ -->
+    <!-- ═══ SECTION 5 — LIVE DEMO ═══ -->
+    <!-- ═══════════════════════════════════ -->
+    <section id="demo" class="section section-demo">
+        <div class="container">
+            <div class="section-label reveal">LIVE DEMO</div>
+            <h2 class="section-headline reveal" data-delay="1">
+                Try the <span class="accent">Case Tracker</span>
+            </h2>
+            <p class="section-sub reveal" data-delay="2">
+                Enter any Case ID to see how status updates work
+            </p>
+
+            <div class="terminal reveal" data-delay="2">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                    </div>
+                    <div class="terminal-title">CIV-GUARD CASE TRACKER</div>
+                    <div class="terminal-dots-placeholder"></div>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-output" id="terminalOutput">
+                        <div class="terminal-line">
+                            <span class="terminal-prompt">system</span>
+                            <span class="terminal-text">Civ-Guard Case Tracking System v2.4.1</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="terminal-prompt">system</span>
+                            <span class="terminal-text">Secure connection established ■</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="terminal-prompt">system</span>
+                            <span class="terminal-text dim">Try: CG-7291, CG-3845, CG-1056, CG-4420</span>
+                        </div>
+                    </div>
+                    <div class="terminal-input-row">
+                        <span class="terminal-prompt">query</span>
+                        <span class="terminal-caret">$</span>
+                        <input
+                            type="text"
+                            id="caseInput"
+                            class="terminal-input"
+                            placeholder="Enter Case ID..."
+                            autocomplete="off"
+                            spellcheck="false"
+                        >
+                        <button class="terminal-submit" id="caseSubmit" aria-label="Submit case query">
+                            <i class="ph-bold ph-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════ -->
+    <!-- ═══ SECTION 6 — TECH STACK ═══ -->
+    <!-- ═══════════════════════════════════ -->
+    <section id="tech" class="section section-tech">
+        <div class="container">
+            <div class="section-label reveal">TECH STACK</div>
+            <h2 class="section-headline reveal" data-delay="1">
+                Built on proven,<br><span class="accent">secure</span> technology
+            </h2>
+
+            <div class="tech-badges">
+                <div class="tech-badge reveal" data-delay="1">
+                    <div class="tech-layer">Mobile App</div>
+                    <div class="tech-name">Flutter</div>
+                </div>
+                <div class="tech-badge reveal" data-delay="2">
+                    <div class="tech-layer">Backend</div>
+                    <div class="tech-name">Node.js</div>
+                </div>
+                <div class="tech-badge reveal" data-delay="3">
+                    <div class="tech-layer">Database</div>
+                    <div class="tech-name">Firebase</div>
+                </div>
+                <div class="tech-badge reveal" data-delay="1">
+                    <div class="tech-layer">Storage</div>
+                    <div class="tech-name">Encrypted Cloud</div>
+                </div>
+                <div class="tech-badge reveal" data-delay="2">
+                    <div class="tech-layer">Dashboard</div>
+                    <div class="tech-name">React Web App</div>
+                </div>
+                <div class="tech-badge reveal" data-delay="3">
+                    <div class="tech-layer">Security</div>
+                    <div class="tech-name">AES-256</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════ -->
+    <!-- ═══ SECTION 7 — FOOTER / CTA ═══ -->
+    <!-- ═══════════════════════════════════ -->
+    <footer id="contact" class="section section-footer">
+        <div class="container">
+            <div class="footer-shield reveal">
+                <i class="ph-fill ph-shield-check"></i>
+            </div>
+            <h2 class="footer-headline reveal" data-delay="1">
+                Join the <span class="accent">Mission</span>
+            </h2>
+            <p class="footer-sub reveal" data-delay="2">
+                Help us build a safer, more transparent world — one anonymous report at a time.
+            </p>
+
+            <div class="footer-ctas reveal" data-delay="2">
+                <a href="#" class="btn btn-primary" id="cta-partner">
+                    <i class="ph-bold ph-handshake"></i>
+                    Partner With Us
+                </a>
+                <a href="#" class="btn btn-secondary" id="cta-github">
+                    <i class="ph-bold ph-github-logo"></i>
+                    View GitHub
+                </a>
+
+            </div>
+
+            <div class="footer-links reveal" data-delay="3">
+                <a href="#" class="footer-link">
+                    <i class="ph ph-github-logo"></i> GitHub
+                </a>
+                <span class="footer-divider">·</span>
+                <a href="#" class="footer-link">
+                    <i class="ph ph-figma-logo"></i> Figma Prototype
+                </a>
+                <span class="footer-divider">·</span>
+                <a href="#" class="footer-link">
+                    <i class="ph ph-envelope-simple"></i> Contact Form
+                </a>
+            </div>
+
+            <div class="footer-bottom reveal" data-delay="4">
+                <div class="footer-brand">
+                    <i class="ph-bold ph-shield-check"></i>
+                    CIV-GUARD
+                </div>
+                <p class="footer-copy">© 2026 Civ-Guard. All rights reserved. Built for justice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
